@@ -1,0 +1,71 @@
+body{
+  Background-color: #77b301;
+  color: #f5f6f7;
+  width: 100%;
+  height:100vh;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+
+h1, p {
+  text-align: center;
+  margin: 1em auto; 
+}
+.questions {text-align:left;
+}
+form {
+  width: 90vw;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0 1rem 0;
+  border-bottom: 3px solid #0a331e;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+.inline, .impr {
+  width: unset;
+  margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+
+input, textarea, select {
+     background-color:#92d756;
+     border: 1px solid #92d756;
+     border-radius: 10px;
+     margin: 10px 0 0 0;
+     width: 100%;
+     min-height: 2em;
+}
+ input, textarea {
+   color: #ffffff;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #337725;
+  border-color: white;
+  min-width: 300px;
+}
